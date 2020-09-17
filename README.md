@@ -1,6 +1,6 @@
-##Instalações Necessárias
+-->Instalações Necessárias
 
-###Node.js
+-> Node.js
 
 sudo apt-get install software-properties-common
 
@@ -12,17 +12,23 @@ node --version
 
 npm --version
 
-###Angular/cli (versão mais recente)
+-> Angular/cli (versão mais recente)
 
 npm install -g @ angular / cli
 
 ng --version
 
-###Ionic (versão mais recente)
+-> Ionic (versão mais recente)
 
 npm install -g @ionic/cli
 
-##Para iniciar a aplicação
+-> Cordova
+
+npm install -g cordova
+
+cordova --version
+
+--> Para iniciar a aplicação
 
 ionic start myApp tabs
 
